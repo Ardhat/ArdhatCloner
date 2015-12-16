@@ -69,7 +69,7 @@ SoftwareSerial mySerial(14, 15); // RX, TX on A0, A1
 #else
 #define FUSE_HIGH       0xDA // 2048b for 2009 boot
 #endif
-#define FUSE_EXTENDED   0x06
+#define FUSE_EXTENDED   0x07
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
    Include data from a file generated in isp_prepare/ dir with this cmd:
